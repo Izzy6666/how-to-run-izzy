@@ -393,6 +393,14 @@ section {
   background: rgba(245, 182, 66, 0.14);
 }
 
+.mindmap-img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+  margin-top: 16px;
+}
+
 /* Footer */
 
 footer {
