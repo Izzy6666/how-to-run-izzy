@@ -92,6 +92,7 @@ main {
   gap: 12px;
   font-size: 12px;
   color: var(--text-muted);
+  flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -415,8 +416,16 @@ footer span {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .nav {
+    flex-wrap: wrap;          /* 允许标题和导航换行 */
+    row-gap: 6px;
+  }
+
   .nav-links {
-    display: none;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 11px;
   }
 
   main {
