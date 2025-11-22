@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>小尹 · 成长记录</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <!-- 顶部导航 -->
+    <!--css里面的position: sticky 让nav整体固定在顶部 -->
+    <header class="nav">
+      <div class="nav-left">
+        <div class="avatar">Y</div>
+        <div class="nav-title">
+          <div class="nav-title-main">Izzy</div>
+          <div class="nav-title-sub">Material / System / Curiosity</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#hero">MENU</a>
+        <a href="path.html">PATH</a>
+        <a href="system.html">SYSTEM</a>
+        <a href="model.html">MODEL</a>
+        <a href="strengths.html">STRENGTH</a>
+      </nav>
+    </header>
+
+    <!-- Hero 首屏 -->
+    <section id="hero">
+      <div class="card">
+        <div class="hero-grid">
+          <div>
+            <div class="section-label">STATEMENT</div>
+            <h1 class="hero-main-title">我不是为善，<br />只是我所为只事，恰好是善。</h1>
+            <p class="hero-tagline">
+              出生在高期待的家，会点材料，会写代码，会敲鼓，会拍照。<br />
+              不是来当乖孩子的，是来把人生调成高性价比实验场的。
+            </p>
+            <div class="hero-quote">
+              “如果结果不一定是好的，那我更想看清整个过程，<br />
+              确认那真的是我自己想走的一步。”
+            </div>
+            <div class="hero-pill-row">
+              <span class="pill pill-strong">化工 / 材料 · 工程师</span>
+              <span class="pill">Python & 自动化</span>
+              <span class="pill">情绪模型玩家</span>
+              <span class="pill">鼓手 / 吉他 / 摄影</span>
+            </div>
+          </div>
+
+          <aside class="hero-side-card">
+            <div class="hero-side-title">一句话粗略概括三十年</div>
+            <p>从“义务教育乖宝宝”，到“漂亮国和雾都刷副本”，再到“第三方实验室搞自动化”。</p>
+            <p>不太喜欢被安排，更擅长搭自己的盘。</p>
+            <div class="hero-meta">
+              <div class="meta-item">ENTP / 高敏锐</div>
+              <div class="meta-item">材料 & 分析</div>
+              <div class="meta-item">系统化 & 流程优化</div>
+              <div class="meta-item">现居：地球主理人工作区</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 媒体区 -->
+    <section class="media-section">
+      <div class="gallery">
+        <img src="images/image1.jpg" alt="selfie image 1" />
+        <img src="images/image2.jpg" alt="selfie image 2" />
+      </div>
+      <div class="video-embed">
+        <!-- 你可以将 src 换成你的视频文件路径 -->
+        <!--video controls-->
+          <div class="video-embed">
+              <iframe
+                src="https://player.bilibili.com/player.html?isOutside=true&aid=115591998346781&bvid=BV1QvUpBqEij&cid=34179255986&p=1"
+                allowfullscreen="true"
+              ></iframe>
+        </div>
+        <!--/video-->
+      </div>
+      <div class="audio-player">
+        <!-- 你可以将 src 换成你的音频文件路径 -->
+        <audio controls>
+          <source src="audios/audio.mp3" type="audio/mpeg" />
+        </audio>
+          <p>这是一首合成的，属于我的乐曲,欢迎收听 →</p>
+      </div>
+    </section>
+
+    <!-- 概览卡片 -->
+    <section class="overview">
+      <div class="overview-card">
+        <h3>成长路径PATH</h3>
+        <p>咱们浅谈一下从童年到现在的几段关键经历。</p>
+        <a href="path.html">查看详情 →</a>
+      </div>
+      <div class="overview-card">
+        <h3>系统框架SYSTEM</h3>
+        <p>如何构建底盘与外围，实现高效跨维度。</p>
+        <a href="system.html">查看详情 →</a>
+      </div>
+      <div class="overview-card">
+        <h3>情绪模型MODEL</h3>
+        <p>用四个参数和情绪偏置，判断何时对话何时放手。</p>
+        <a href="model.html">查看详情 →</a>
+      </div>
+      <div class="overview-card">
+        <h3>优势基因STRENGTH</h3>
+        <p>GALLUP报告翻译成行动语言。</p>
+        <a href="strengths.html">查看详情 →</a>
+      </div>
+    </section>
+
+    <footer>
+      <div>这是一份送给自己的小档案。</div>
+      <div>Birthday Build · <span>Version 1.0</span></div>
+    </footer>
+  </main>
+</body>
+</html>
